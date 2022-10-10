@@ -21,6 +21,7 @@ This is my current scenario:
 * run `docker-compose up -d` to start the Postgres database
 * run `poetry install` to install dependencies
 * enter Poetry shell with `poetry shell`
+* run `python src/multischema/create_db_with_schema.py` to create the database and the two schemas
 * run `alembic -c src/multischema/alembic.ini -n core revision --autogenerate`
 * run `alembic -c src/multischema/alembic.ini -n app revision --autogenerate`
 * run `alembic -c src/multischema/alembic.ini -n core upgrade head`

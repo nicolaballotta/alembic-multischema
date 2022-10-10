@@ -24,8 +24,6 @@ def include_object(object, name, type_, reflected, compare_to):
         else:
             return True
 
-    return include_object
-
 
 def run_migrations_online():
     # don't create empty revisions
